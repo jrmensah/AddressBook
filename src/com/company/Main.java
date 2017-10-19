@@ -42,7 +42,7 @@ public class Main {
 
                 System.out.println("Do you want to add another person?(Y/N)");
                 yesOrNo = keyboard.nextLine();
-                if (!yesOrNo.equalsIgnoreCase("y") && !yesOrNo.equalsIgnoreCase("n")) ;
+                if (!yesOrNo.equalsIgnoreCase("y") && !yesOrNo.equalsIgnoreCase("n"))
                 {
                     System.out.println("Invalid Option. Please enter 'Y' or 'N'");
                     yesOrNo = keyboard.nextLine();
@@ -83,7 +83,7 @@ public class Main {
             {
                 System.out.println(eachItem);
 
-        
+
     }
  }
 }
